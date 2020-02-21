@@ -10,7 +10,7 @@ in vec3 Nworld;
 in vec3 Vworld;
 in vec3 Lworld;
 
-uniform bool world;
+uniform bool world = true;
 
 // Uniforms sobre la luz
 uniform vec4 lightAmbient;   // similar a gl_LightSource[0].ambient
@@ -27,7 +27,7 @@ uniform float matShininess;  // similar a gl_FrontMaterial.shininess
 vec4 light(vec3 N, vec3 V, vec3 L)
 {
     N=normalize(N); V=normalize(V); L=normalize(L);
-    vec3 R = normalize( 2.0*dot(N,L)*N-L );
+    vec3 R = normalize( 2.0*dot(N,L)*N - L );
     float NdotL = max( 0.0, dot( N,L ) );
     float RdotV = max( 0.0, dot( R,V ) );
     float Idiff = NdotL;
