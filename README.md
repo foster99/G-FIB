@@ -7,4 +7,4 @@ Semana 1-2 (Ejercicios Llista):
   * [x] 4. Lighting (2)
   * [x] 5. Lighting (4)
   * [x] 6. Lighting (5)
-  * [ ] 15. 4 lights   (*) Quan es menciona "ZIP de l'enunciat" --> /assig/grau-g/Arxius/4lights.*
+  * [x] 15. 4 lights   (*) Quan es menciona "ZIP de l'enunciat" --> /assig/grau-g/Arxius/4lights.*

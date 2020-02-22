@@ -9,7 +9,7 @@ in vec3 N;   	// normal (en object space)
 in vec3 P; 	// posicio del vertex (en object space)
 
 uniform float time;
-uniform bool rotate;
+uniform bool rotate = true;
 
 // V, N, P, lightPos han d'estar al mateix espai de coordenades
 // V és el vector unitari cap a l'observador
@@ -24,7 +24,7 @@ vec4 light(vec3 V, vec3 N, vec3 P, vec3 lightPos, vec3 lightColor)
 	const float Kd = 0.5;
 	N = normalize(N);
 	vec3 L = normalize(lightPos - P);
-	vec3 R = reflect(-L, N);
+	vec3 R = reflect(-L, N); 
 	float NdotL = max(0.0, dot(N,L));
 	float RdotV = max(0.0, dot(R,V));
 	float spec =  pow( RdotV, shininess);
@@ -41,10 +41,15 @@ void main()
 
 	vec3 V = normalize(modelViewMatrixInverse[3].xyz - P);
 	
-	vec4 c1 = light(V, N, P, R * (modelViewMatrixInverse * vec4(0,10,0,1)).xyz, vec3(0, 1, 0));
-	vec4 c2 = light(V, N, P, R * (modelViewMatrixInverse * vec4(0,-10,0,1)).xyz, vec3(0, 1, 1));
-	vec4 c3 = light(V, N, P, R * (modelViewMatrixInverse * vec4(10,0,0,1)).xyz, vec3(0, 0, 1));
-	vec4 c4 = light(V, N, P, R * (modelViewMatrixInverse * vec4(-10,0,0,1)).xyz, vec3(1, 0, 0));
+	vec4 position1 = vec4( R * vec3(0,10,0) , 1 );
+	vec4 position2 = vec4( R * vec3(0,-10,0) , 1 );
+	vec4 position3 = vec4( R * vec3(10,0,0) , 1 );
+	vec4 position4 = vec4( R * vec3(-10,0,0) , 1 );
+	
+	vec4 c1 = light(V, N, P, (modelViewMatrixInverse * position1).xyz, vec3(0, 1, 0));
+	vec4 c2 = light(V, N, P, (modelViewMatrixInverse * position2).xyz, vec3(1, 1, 0));
+	vec4 c3 = light(V, N, P, (modelViewMatrixInverse * position3).xyz, vec3(0, 0, 1));
+	vec4 c4 = light(V, N, P, (modelViewMatrixInverse * position4).xyz, vec3(1, 0, 0));
 
 	fragColor = c1 + c2 + c3 + c4;
 }
