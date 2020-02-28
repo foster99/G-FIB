@@ -11,7 +11,6 @@ Semana 1-2 (Ejercicios Llista):
 
 
 Semana 3:
-  * [ ] 2. Basic lighting (1)
   * [ ] Animate Vertices 1 
   * [ ] Auto-rotate
   * [ ] Twist
