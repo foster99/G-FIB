@@ -11,16 +11,16 @@ Semana 1-2 (Ejercicios Llista):
 
 
 Semana 3:
-  * [ ] Animate Vertices 1 
-  * [ ] Auto-rotate
-  * [ ] Twist
-  * [ ] Wave
-  * [ ] Contortion
-  * [ ] Color gradient 1
-  * [ ] Color gradient 2
+  * [x] Animate Vertices 1 
+  * [x] Auto-rotate
+  * [x] Twist
+  * [x] Wave
+  * [x] Contortion
+  * [x] Color gradient 1
+  * [x] Color gradient 2
   * [ ] Reverse Z 1
   * [ ] Reverse Z 2
   Opcionals:
       * [ ] Zoom
       * [ ] Oscillate
-      * [ ]   Bouncing
+      * [ ] Bouncing
