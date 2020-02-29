@@ -18,8 +18,8 @@ Semana 3:
   * [x] Contortion
   * [x] Color gradient 1
   * [x] Color gradient 2
-  * [ ] Reverse Z 1
-  * [ ] Reverse Z 2
+  * [x] Reverse Z 1
+  * [x] Reverse Z 2
   Opcionals:
       * [ ] Zoom
       * [ ] Oscillate
