@@ -20,7 +20,24 @@ Semana 3:
   * [x] Color gradient 2
   * [x] Reverse Z 1
   * [x] Reverse Z 2
+  
   Opcionals:
-      * [ ] Zoom
-      * [ ] Oscillate
-      * [ ] Bouncing
+  * [ ] Zoom
+  * [ ] Oscillate
+  * [ ] Bouncing
+
+  
+  
+Semana 4:
+  * [x] 7. Basic Texture
+  * [x] 8. Animate Texture
+  * [x] 9. Tiling
+  * [ ] 11. Explosion
+  * [ ] 24. UV unfold
+  * [ ] 43. Texture splatting
+
+  Opcionals:
+  * [ ] 12. Fire
+  * [ ] 44. Marble
+  * [ ] 38. Gioconda
+  * [ ] 42. Parallax hallucination
