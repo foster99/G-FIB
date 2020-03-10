@@ -33,7 +33,7 @@ Semana 4:
   * [x] 8. Animate Texture
   * [x] 9. Tiling
   * [x] 11. Explosion
-  * [ ] 24. UV unfold
+  * [x] 24. UV unfold
   * [x] 43. Texture splatting
 
   Opcionals:
