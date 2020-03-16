@@ -41,3 +41,22 @@ Semana 4:
   * [ ] 44. Marble
   * [ ] 38. Gioconda
   * [ ] 42. Parallax hallucination
+
+
+Semana 5:
+  * [x] 28. Checkerboard 1
+  * [x] 29. Checkerboard 2
+  * [x] 30. Checkerboard 3
+  * [x] 34. Hinomaru
+  * [x] 34bis. Hinomaru bis (implementeu anti-aliasing amb smoothstep; no patiu pel test)
+  * [x] 35. Hinomaru 2
+  * [x] 22. Spherize (útil per a parametrització esfèrica)
+  * [x] 27. Calculant la normal al FS
+  * [x] 25. CRT Display
+  * [x] 37. Uncover
+
+  Opcionals:
+  * [ ] 31. Senyera
+  * [ ] 32. Checkerboard 4
+  * [ ] 33. CircularStripes
+  * [ ] 42. Parallax hallucination
