@@ -14,7 +14,7 @@ uniform mat3 normalMatrix;
 
 void main()
 {
-    V = (modelViewMatrix*vec4(vertex, 1)).xyz;
+    V = (modelViewMatrix*vec4(vertex, 1)).xyz; // eye space
     frontColor = vec4(color, 1);
     gl_Position = modelViewProjectionMatrix * vec4(vertex, 1);
 }
