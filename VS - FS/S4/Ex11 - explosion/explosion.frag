@@ -8,8 +8,6 @@ uniform sampler2D explosion;
 uniform float time;
 
 
-
-
 void main()
 {
 
