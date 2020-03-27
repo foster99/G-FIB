@@ -5,18 +5,18 @@ layout (location = 1) in vec3 normal;
 layout (location = 2) in vec3 color;
 layout (location = 3) in vec2 texCoord;
 
-out vec4 frontColor;
 out vec2 vtexCoord;
+out vec3 N1;
+out vec4 V;
 
 uniform mat4 modelViewProjectionMatrix;
 uniform mat3 normalMatrix;
-uniform float speed = 0.1;
-uniform float time; 
 
 void main()
 {
-    frontColor = vec4(normalize(normalMatrix * normal).z);
-    vtexCoord = texCoord + speed * time;
-    gl_Position = modelViewProjectionMatrix * vec4(vertex, 1.0);
+    N1 = normal;
+    V = vec4(vertex, 1.0);
     
+    vtexCoord = texCoord;
+    gl_Position = modelViewProjectionMatrix * vec4(vertex, 1.0);
 }

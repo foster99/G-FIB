@@ -22,9 +22,9 @@ Semana 3:
   * [x] Reverse Z 2
   
   Opcionals:
-  * [ ] Zoom
-  * [ ] Oscillate
-  * [ ] Bouncing
+  * [x] Zoom
+  * [x] Oscillate
+  * [x] Bouncing
 
   
   
@@ -37,10 +37,10 @@ Semana 4:
   * [x] 43. Texture splatting
 
   Opcionals:
-  * [ ] 12. Fire
-  * [ ] 44. Marble
-  * [ ] 38. Gioconda
-  * [ ] 42. Parallax hallucination
+  * [x] 12. Fire
+  * [x] 44. Marble
+  * [x] 38. Gioconda
+  * [x] 42. Parallax hallucination
 
 
 Semana 5:
@@ -56,7 +56,11 @@ Semana 5:
   * [x] 37. Uncover
 
   Opcionals:
-  * [ ] 31. Senyera
-  * [ ] 32. Checkerboard 4
-  * [ ] 33. CircularStripes
-  * [ ] 42. Parallax hallucination
+  * [x] 31. Senyera
+  * [x] 32. Checkerboard 4
+  * [x] 33. CircularStripes
+  * [x] 42. Parallax hallucination
+
+Preparacion Examen Parcial 1:
+  * [x] Examen A
+  * [x] Examen B
