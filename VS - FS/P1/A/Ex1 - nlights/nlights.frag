@@ -40,6 +40,7 @@ void main()
     vec3 L,V, lightPosition;
     vec4 Ltotal = vec4(0); 
     float a_step = 2*pi/n;
+    
     for (float alpha = 0; alpha < 2*pi; alpha += a_step) {
     
         lightPosition = vec3(10*cos(alpha),10*sin(alpha),0);
