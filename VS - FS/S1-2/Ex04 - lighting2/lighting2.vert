@@ -28,7 +28,7 @@ uniform mat3 normalMatrix;
 vec4 myPhong(vec3 N, vec3 L, vec3 V) {
 
     float DotNL = dot(N,L);
-    
+
     if (DotNL < 0)
         return  (matAmbient * lightAmbient);
     
@@ -37,8 +37,8 @@ vec4 myPhong(vec3 N, vec3 L, vec3 V) {
     float DotRV = dot(R,V);
     if (DotRV < 0)
         return  (matAmbient * lightAmbient) + (matDiffuse * lightDiffuse * DotNL);
-
     
+
     return  (matAmbient * lightAmbient) + (matDiffuse * lightDiffuse * DotNL) + (matSpecular * lightSpecular * pow(DotRV,matShininess));
 }
 
