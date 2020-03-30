@@ -27,6 +27,7 @@ void main()
     // LAS DOS OPCIONES FUNCIONAN
     
     //gl_Position = vec4(res.xy, res.z/scale, res.w/scale);
+    
     gl_Position = vec4(scale * res.xy, res.z, res.w);
 
 }
