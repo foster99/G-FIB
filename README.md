@@ -66,11 +66,11 @@ Semana 6 (Preparacion Examen Parcial 1):
   * [x] Examen B
 
 Semana 7 (Geometry Shaders):
-  * [ ] Shadow
-  * [ ] Shadow 2
-  * [ ] Explode
-  * [ ] Voxelize
-  * [ ] Lego (el test és només orientatiu!)
-  * [ ] Area
+  * [x] 1. Shadow
+  * [x] 2. Shadow 2
+  * [x] 3. Explode
+  * [x] 6. Voxelize
+  * [ ] 7. Lego (el test és només orientatiu!)
+  * [ ] 13. Area
 
 Semana 8 (Plugins):
