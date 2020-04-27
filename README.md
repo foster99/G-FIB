@@ -70,7 +70,16 @@ Semana 7 (Geometry Shaders):
   * [x] 2. Shadow 2
   * [x] 3. Explode
   * [x] 6. Voxelize
-  * [ ] 7. Lego (el test és només orientatiu!)
+  * [x] 7. Lego (el test és només orientatiu!)
   * [ ] 13. Area
 
 Semana 8 (Plugins):
+  * [ ] ModelInfo (1)
+  * [ ] Animate Vertices Plugin
+  * [ ] Show-degree
+  * [ ] ModelInfo (2)
+
+  Opcionals:
+  * [ ] Framerate
+  * [ ] Il·luminació per fragment amb shaders
+
