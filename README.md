@@ -61,6 +61,16 @@ Semana 5:
   * [x] 33. CircularStripes
   * [x] 42. Parallax hallucination
 
-Preparacion Examen Parcial 1:
+Semana 6 (Preparacion Examen Parcial 1):
   * [x] Examen A
   * [x] Examen B
+
+Semana 7 (Geometry Shaders):
+  * [ ] Shadow
+  * [ ] Shadow 2
+  * [ ] Explode
+  * [ ] Voxelize
+  * [ ] Lego (el test és només orientatiu!)
+  * [ ] Area
+
+Semana 8 (Plugins):
