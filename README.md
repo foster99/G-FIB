@@ -75,9 +75,9 @@ Semana 7 (Geometry Shaders):
 
 Semana 8 (Plugins):
   * [x] ModelInfo (1)
-  * [ ] Animate Vertices Plugin
-  * [ ] Show-degree
-  * [ ] ModelInfo (2)
+  * [x] Animate Vertices Plugin
+  * [x] Show-degree
+  * [x] ModelInfo (2)
 
   Opcionals:
   * [ ] Framerate
