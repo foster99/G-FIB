@@ -73,7 +73,7 @@ Semana 7 (Geometry Shaders):
   * [x] 7. Lego (el test és només orientatiu!)
   * [ ] 13. Area
 
-Semana 8 (Plugins):
+Semana 8 (S1 Plugins):
   * [x] ModelInfo (1)
   * [x] Animate Vertices Plugin
   * [x] Show-degree
@@ -83,3 +83,6 @@ Semana 8 (Plugins):
   * [ ] Framerate
   * [ ] Il·luminació per fragment amb shaders
 
+Semana 9 (S2 Plugins):
+  * [x] drawBoundingBox
+  * [x] drawSmooth
