@@ -100,4 +100,4 @@ Semana 11 (S4 plugins)
 Semana 12 (Practica Parcial 2)
   * [x] Smile
   * [x] pingpong
-  * [ ] base
+  * [x] base
