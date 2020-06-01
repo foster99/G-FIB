@@ -86,3 +86,18 @@ Semana 8 (S1 Plugins):
 Semana 9 (S2 Plugins):
   * [x] drawBoundingBox
   * [x] drawSmooth
+
+Semana 10 (S3 plugins)
+  * [x] Texture Splatting
+  * [x] Distort
+  * [x] Reflection
+
+Semana 11 (S4 plugins)
+  * [x] Visualizar seleccion de objetos
+  * [x] Seleccion de objetos con Teclado
+  * [x] Seleccion de objetos con Mouse
+
+Semana 12 (Practica Parcial 2)
+  * [x] Smile
+  * [x] pingpong
+  * [ ] base
