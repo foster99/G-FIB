@@ -97,7 +97,15 @@ Semana 11 (S4 plugins)
   * [x] Seleccion de objetos con Teclado
   * [x] Seleccion de objetos con Mouse
 
-Semana 12 (Practica Parcial 2)
+Semana 12 (Preparacion Examen Parcial 2)
   * [x] Smile
   * [x] pingpong
   * [x] base
+
+Ejercicios Examenes Parciales:
+  * [x] id
+  * [x] flag
+  * [x] letter
+  * [x] shadows
+  * [x] pacman
+  * [x] volume
